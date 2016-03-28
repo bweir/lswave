@@ -37,3 +37,4 @@ Makefile*
 /bin/
 /lib/
 *.spin
+/build/
