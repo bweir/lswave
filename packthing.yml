@@ -1,0 +1,24 @@
+name: LSWave
+package: lswave
+org: LameStation LLC
+url: http://www.lamestation.com
+maintainer: LameStation
+email: contact@lamestation.com
+copyright: 2013-2015
+license: GPLv3
+tagline: LameStation WAV sample converter
+description: Convert WAV files into LameStation samples
+master: lswave
+
+target: 
+  deb: 
+    depends:
+    categories: "Development;IDE"
+    section: "Applications/Editors"
+  mac: 
+    category: "public.app-category.developer-tools"
+
+repos: 
+    lswave:
+        url: https://github.com/lamestation/lswave.git
+        builder: qmake
